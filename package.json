@@ -1,0 +1,14 @@
+{
+  "name": "gundewine-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.0.0",
+    "dotenv": "^18.0.8",
+    "hono": "^4.0.0",
+    "postgres": "^3.4.9"
+  }
+}
